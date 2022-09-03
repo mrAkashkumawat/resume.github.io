@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+  
+}
+.head{
+    width: 80%;
+    height: 30vh;
+    margin-top: 2%;
+    background-color: rgb(16, 13, 41);
+    color: #dbdada;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.int{
+    padding: 3%;
+     flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: sans-serif;
+    text-align: start;
+}
+.img{
+    width: 110px;
+    height: 130px;
+    border: 5px solid rgb(28, 8, 54);
+    
+}
+.Career{
+    width: 80%;
+    height: 30vh;
+    background-color: rgb(16, 13, 41);
+    color: #dbdada;
+    margin: auto;
+    text-align: center;
+}
+.Career h1{
+    padding-top: 5%;
+    font-family: sans-serif;
+
+}
+.Career p{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: start;
+    padding: 0 5%;
+}
+.Academic{
+    width: 80%;
+    height: 30vh;
+    background-color: rgb(16, 13, 41);
+    color: #dbdada;
+    margin: auto;
+    text-align: center;
+}
+.Academic h1{
+   
+    font-family: sans-serif;
+}
+.Academic table{
+    width: 100%;
+
+}
+td  {
+    border:1px solid #fff;
+    padding: 1%;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+
+  .Professional{
+    width: 80%;
+    height: 30vh;
+    background-color: rgb(16, 13, 41);
+    color: #dbdada;
+    margin: auto;
+    text-align: center;
+}
+.Professional h1{
+   
+    font-family: sans-serif;
+}
+.Professional table{
+    width: 100%;
+
+}
+td  {
+    border:1px solid #fff;
+    padding: 1%;
+    font-size: 17px;
+    font-family: sans-serif;
+  }
+  span{
+      color: #fff;
+      
+  }
+  .sign{
+    width: 80%;
+    height: 25vh;
+    background-color: rgb(16, 13, 41);
+    color: #dbdada;
+    margin: auto;
+    text-align: end;
+    padding: 0 5%;
+  }
+  @media screen and (max-width: 790px) {
+    .head {
+        width: 80%;
+    }
+    .int{
+        width:60%
+    }
+    img{
+        width: 20%;
+    }
+  }
+  @media screen and (max-width: 590px) {
+    .head {
+        width: 80%;
+        height: 50vh;
+        
+    }
+    .int{
+        width:50%;
+        
+        
+    }
+    img{
+        width: 15%;
+        margin-top: 60px;
+    }
+    .Career{
+        height: 50vh;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .Academic{
+        padding: 3%;
+    }
+    .Professional{
+        padding: 3%;
+        height: 40vh;
+    }
+    td{
+     padding: 2%;
+    }
+  }
