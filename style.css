@@ -6,7 +6,7 @@
 
 }
 body{
-  
+  background-color: rgb(16, 13, 41);
 }
 .head{
     width: 80%;
@@ -44,14 +44,23 @@ body{
     margin: auto;
     text-align: center;
 }
-
+.Career{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .Career.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 
 .Career h1{
     padding-top: 5%;
     font-family: sans-serif;
 
 }
-
 .Career p{
     font-size: 20px;
     font-family: sans-serif;
@@ -158,7 +167,7 @@ td  {
      padding: 2%;
     }
   }
-@media screen and (max-width: 400px) {
+  @media screen and (max-width: 400px) {
     .Academic{
         width: 100%;
         padding: 3%;
@@ -170,7 +179,7 @@ td  {
         width: 100%;
     }
     td{
-    text-align: center;
+     padding: 3%;
      font-size: 10px;
     }
     .head{
@@ -182,5 +191,4 @@ td  {
     .sign{
         width: 100%; 
     }
-    
   }
