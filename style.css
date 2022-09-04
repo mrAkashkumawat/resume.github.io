@@ -44,17 +44,7 @@ body{
     margin: auto;
     text-align: center;
 }
-.Career{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 1s all ease;
-  }
-  
-  .Career.active{
-    transform: translateY(0);
-    opacity: 1;
-  }
+
 
 .Career h1{
     padding-top: 5%;
